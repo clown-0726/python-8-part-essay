@@ -1,4 +1,7 @@
-# python 八股文
+![](./asset/img/python_logo.png)
+
+#### python 之禅
+
 ```
 Beautiful is better than ugly. 美胜于丑。
 Explicit is better than implicit. 显式比隐式好。
@@ -23,8 +26,8 @@ Namespaces are one honking great idea -- let's do more of those! 名称空间是
 
 #### Python 基础面试题
 
-Python 的作者？
+- Python 的作者？
 
-Python 类型鉴别？
+- Python 类型鉴别？
 
-Python 的基本数据类型？
+- Python 的基本数据类型？
