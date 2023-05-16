@@ -31,3 +31,7 @@ Namespaces are one honking great idea -- let's do more of those! 名称空间是
 - Python 类型鉴别？
 
 - Python 的基本数据类型？
+
+- Python 中的 `*args` 和 `**kwargs` 表示什么？
+
+- Python 语法中 “==” 和 “is” 的区别是什么？
