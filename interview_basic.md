@@ -93,3 +93,37 @@ print(c == d)  # True，两个列表的元素一致
 print(c is d)  # False，两个列表对象，其 id() 不一样
 ```
 
+#### 📖 Python 中为什么没有函数重载？
+
+C++、Java、C# 等诸多编程语言都支持函数重载，所谓函数重载指的是在同一个作用域中有多个同名函数，它们拥有不同的参数列表（参数个数不同或参数类型不同或二者皆不同），可以相互区分。重载也是面向对象多态性的体现，因为通常是在编译时通过参数的个数和类型来确定到底调用哪个重载函数，所以也被称为编译时多态性或者叫前绑定。
+
+而 Python 不支持函数重载主要有下面几点原因：
+
+- Python 是解释型语言，函数重载现象通常出现在编译型语言中。
+- Python 是动态类型语言，函数的参数没有类型约束，也就无法根据参数类型来区分重载。
+- Python 中函数的参数可以有默认值，可以使用可变参数和关键字参数，因此可以让函数根据调用者传入的参数产生不同的行为。
+
+#### 📖 介绍用过 Python 标准库中的哪些模块？
+
+Python 标准库中的模块非常多，主要根据自己过往的项目经历来介绍你用过的标准库和三方库。
+
+| 模块名                       | 介绍                                                         |
+| ---------------------------- | ------------------------------------------------------------ |
+| sys                          | 跟 Python 解释器相关的变量和函数，例如：sys.version、sys.exit() |
+| os                           | 和操作系统相关的功能，例如：os.listdir()、os.remove()        |
+| re                           | 和正则表达式相关的功能，例如：re.compile()、re.search()      |
+| math                         | 和数学运算相关的功能，例如：math.pi、math.e、math.cos        |
+| logging                      | 和日志系统相关的类和函数，例如：logging.Logger、logging.Handler |
+| json / pickle                | 实现对象序列化和反序列的模块，例如：json.loads、json.dumps   |
+| hashlib                      | 封装了多种哈希摘要算法的模块，例如：hashlib.md5、hashlib.sha1 |
+| urllib                       | 包含了和URL相关的子模块，例如：urllib.request、urllib.parse  |
+| itertools                    | 提供各种迭代器的模块，例如：itertools.cycle、itertools.product |
+| functools                    | 函数相关工具模块，例如：functools.partial、functools.lru_cache |
+| collections / heapq          | 封装了常用数据结构和算法的模块，例如：collections.deque      |
+| threading / multiprocessing  | 多线程/多进程相关类和函数的模块，例如：threading.Thread      |
+| concurrent.futures / asyncio | 并发编程/异步编程相关的类和函数的模块，例如：ThreadPoolExecutor |
+| base64                       | 提供 BASE-64 编码相关函数的模块，例如：bas64.encode          |
+| csv                          | 和读写CSV文件相关的模块，例如：csv.reader、csv.writer        |
+| profile / cProfile / pstats  | 和代码性能剖析相关的模块，例如：cProfile.run、pstats.Stats   |
+| unittest                     | 和单元测试相关的模块，例如：unittest.TestCase                |
+

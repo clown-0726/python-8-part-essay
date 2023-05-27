@@ -24,7 +24,7 @@ If the implementation is easy to explain, it may be a good idea. 如果实现很
 Namespaces are one honking great idea -- let's do more of those! 名称空间是一个非常好的主意——让我们做更多的工作吧！
 ```
 
-#### Python 基础面试题
+#### Python 基础面试题（7 个）
 
 - Python 的作者？
 
@@ -35,3 +35,7 @@ Namespaces are one honking great idea -- let's do more of those! 名称空间是
 - Python 中的 `*args` 和 `**kwargs` 表示什么？
 
 - Python 语法中 “==” 和 “is” 的区别是什么？
+
+- Python 中为什么没有函数重载？
+
+- 介绍用过 Python 标准库中的哪些模块？
