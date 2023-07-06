@@ -24,18 +24,36 @@ If the implementation is easy to explain, it may be a good idea. 如果实现很
 Namespaces are one honking great idea -- let's do more of those! 名称空间是一个非常好的主意——让我们做更多的工作吧！
 ```
 
-#### Python 基础面试题（7 个）
+#### Python 基础面试题（16 个）
 
-- Python 的作者？
+Python 的作者？
 
-- Python 类型鉴别？
+Python 类型鉴别？
 
-- Python 的基本数据类型？
+Python 的基本数据类型？
 
-- Python 中的 `*args` 和 `**kwargs` 表示什么？
+Python 中的 `*args` 和 `**kwargs` 表示什么？
 
-- Python 语法中 “==” 和 “is” 的区别是什么？
+Python 语法中 “==” 和 “is” 的区别是什么？
 
-- Python 中为什么没有函数重载？
+Python 中为什么没有函数重载？
 
-- 介绍用过 Python 标准库中的哪些模块？
+介绍用过 Python 标准库中的哪些模块？
+
+什么是鸭子类型（duck typing）？
+
+说一下 Python2 和 Python3 的区别？
+
+什么是 Lambda 函数？
+
+正则表达式的 match 方法和 search 方法有什么区别？
+
+什么是 Python 中的魔术方法？
+
+说一下你对 Python 中模块和包的理解？
+
+什么情况下会出现 `KeyError`、`TypeError`、`ValueError`？
+
+说说对 Python 中的浅拷贝和深拷贝的理解？
+
+说一下 Python 中变量的作用域？
